@@ -17,7 +17,7 @@ The script will list all matching packages and prompt to confirm the action (y/n
 
 Sample output of the script:
 ```
-Jeroens-MacBook-Pro:android_uninstall jmols$ ./uninstall.sh jmols
+Jeroens-MacBook-Pro:android_uninstall jmols$ ./rmapps.sh jmols
 
 Found 6 matching apps:
     com.jmolsmobile.babydosis
@@ -36,12 +36,12 @@ Did not uninstall anything
 # Installation
 Make sure the script is executable:
 ```
-sudo chmod a+x ./uninstall.sh
+sudo chmod a+x ./rmapps.sh
 ```
 
 Optionally create an alias for the script in your `.bash_profile`:
 ```
-alias uninstall='<path from ~>/uninstall.sh'
+alias rmapps='<path from ~>/rmapps.sh'
 ```
 
 # Next steps
