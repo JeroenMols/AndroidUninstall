@@ -20,6 +20,9 @@ function uninstall {
     if [ $INSTALLED -gt $MAX_TO_UNINSTALL ]; then
         echo "For security reasons cannot uninstall more than $MAX_TO_UNINSTALL apps"
         exit
+    elif [ $INSTALLED -eq 0 ]; then
+        echo "Did not uninstall any apps"
+        exit
     fi
 
 	echo "Are you sure you want to uninstall these? (y/n)"
