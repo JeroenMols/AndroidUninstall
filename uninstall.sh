@@ -40,7 +40,7 @@ function check_devices {
         echo "Did not uninstall any apps"
         exit
     elif [ $CONNECTED -gt 3 ]; then
-        echo "Too many devices connected ($(($CONNECTED-1)))"
+        echo "Too many devices connected ($(($CONNECTED-2)))"
         echo "Did not uninstall any apps"
         exit
     fi
