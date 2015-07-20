@@ -39,7 +39,14 @@ Make sure the script is executable:
 sudo chmod a+x ./uninstall.sh
 ```
 
-Optionally create an alias for the script in your `.bash_profile`:
+This script requires adb to work and hence the Android SDK should be set up correctly in your PATH. To verify if that is the case, type `adb version` in your terminal. If this doesn't do anything, add the following lines to your `.bashrc`, `.bash_profile` or `.zshrc`:
+
+```
+export PATH=$PATH:<path to Android SDK>/platform-tools
+export PATH=$PATH:<path to Android SDK>/tools
+```
+
+Optionally create an alias for the script in your your `.bashrc`, `.bash_profile` or `.zshrc`:
 ```
 alias uninstall='<path from ~>/uninstall.sh'
 ```
