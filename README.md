@@ -54,3 +54,4 @@ alias uninstall='<path from ~>/uninstall.sh'
 # Next steps
 * Mechanism to uninstall more than 10 apps at once (limitation is now there as a safety)
 * Ruby bindings and gem for easier installation
+* Distribute via Homebrew
