@@ -1,7 +1,7 @@
 # AndroidUninstall
 Batch uninstall Android apps using this very convenient script. Just supply a package name (or part of it) and the script will take care of the uninstallation.
 
-Very usefull when:
+Very useful when:
 * You pick a shared device and want to *clean* it from all your domains apps (e.g. *jmolsmobile*)
 * You want to uninstall both the app and test apk at the same time
 * You want to uninstall an apk for all users
