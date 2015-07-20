@@ -10,7 +10,7 @@ Interesting use cases:
 Simply invoke the script and supply (part of) a package name as an argument
 
 ```
-./uninstall 'jmolsmobile'
+./rmapps 'jmolsmobile'
 ```
 
 The script will list all matching packages and prompt to confirm the action (y/n)
