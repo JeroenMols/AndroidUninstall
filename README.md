@@ -7,7 +7,7 @@ Very useful when:
 * You want to uninstall an apk for all users
 
 <p align="center">
-  <img src="https://raw.github.com/jmolsmobile/LandscapeVideoCapture/master/screenrecord.gif" alt="Portrait" height="450"/>
+  <img src="https://raw.githubusercontent.com/JeroenMols/AndroidUninstall/master/screenrecord.gif" alt="Script in action" height="450"/>
 </p>
 
 # Usage
