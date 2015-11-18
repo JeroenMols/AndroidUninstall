@@ -6,11 +6,15 @@ Interesting use cases:
 * Uninstall both the app and test apk
 * Uninstall an apk for all users
 
+<p align="center">
+  <img src="https://raw.github.com/jmolsmobile/LandscapeVideoCapture/master/screenrecord.gif" alt="Portrait" height="450"/>
+</p>
+
 # Usage
 Simply invoke the script and supply (part of) a package name as an argument
 
 ```
-./uninstall 'jmolsmobile'
+./rmapps 'jmols'
 ```
 
 The script will list all matching packages and prompt to confirm the action (y/n)
